@@ -391,11 +391,14 @@ table {
 }
 
 .header__logout {
+}
+.btn__logout {
     color: var(--white);
     font-family: var(--font-family-hiraginokaku_gothic_pron-w3);
     font-size: var(--font-size-xxs);
     font-style: normal;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .footer {
