@@ -465,6 +465,7 @@ table {
 }
 
 .bottom_btn_cancel {
+    color: var(--black);
     background: var(--whisper);
     border-radius: 21px;
     font-size: var(--font-size-m);
