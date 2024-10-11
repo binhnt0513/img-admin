@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/global.css">
+    <link rel="stylesheet" href="./public/css/detail.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="detail__page" id="body">
+<header class="header" id="header">
+    <div class="header__container">
+        <div class="header__logo"><a href="#"><img src="./public/img/logo.png" alt="IMGコネクション"></a>
+        </div>
+        <div class="header__logout">
+            <span class="btn__logout">ログアウト</span>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container detail__container">
+        <h1 class="detail__title">登録情報一覧</h1>
+        <div class="detail_actions">
+            <a class="btn__anker-link" style="background: var(--daintree)" href="#section1">
+                お知らせ
+                <span class="icon"></span>
+            </a>
+            <a class="btn__anker-link" href="#section2">
+                事業概要
+                <span class="icon"></span>
+            </a>
+            <a class="btn__anker-link" href="#section3">
+                募集要項
+                <span class="icon"></span>
+            </a>
+        </div>
+        <div class="detail_content">
+            <div class="detail__section" id="section1">
+                <h2 class="detail__group-label">お知らせ</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th colspan="2">お知らせ①
+                            <div class="arrow-btn-group">
+                                <div class="arrow-btn">
+                                    <img src="./public/img/arrow-down.png">
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>表示日付</td>
+                        <td>
+                            <div class="select-container">
+                                <select class="select-field">
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                </select>
+                                <select class="select-field">
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <select class="select-field">
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>本文</td>
+                        <td><textarea rows="11">新サービスを開始しました。
+                        </textarea></td>
+                    </tr>
+                    <tr>
+                        <td>リンク</td>
+                        <td>
+                            <select class="select-field url-select">
+                                <option value="リンクファイル">リンクファイル</option>
+                                <option value="リンクURL">リンクURL</option>
+                            </select>
+                            <div class="addition-action">
+                                <p>※アップロードできるファイル形式はPDFのみです。 ※10MBまで</p>
+                                <p>
+                                    <button class="btn-upload">
+                                        ファイルを選択
+                                    </button>
+                                    選択されていません
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>リンクファイル</td>
+                        <td>
+                            <div class="custom-radio">
+                                <input type="radio" name="radio1" checked="checked">表示
+                                <input type="radio" name="radio1">非表示
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                    <tr>
+                        <th colspan="2">お知らせ②
+                            <div class="arrow-btn-group">
+                                <div class="arrow-btn">
+                                    <img src="./public/img/arrow-down.png">
+                                </div>
+                                <div class="arrow-btn">
+                                    <img src="./public/img/arrow-up.png">
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>表示日付</td>
+                        <td>
+                            <div class="select-container">
+                                <select class="select-field">
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                </select>
+                                <select class="select-field">
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <select class="select-field">
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="14">15</option>
+                                    <option value="14" selected>16</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>本文</td>
+                        <td><textarea rows="11">ホームページをリニューアルしました。
+                        </textarea></td>
+                    </tr>
+                    <tr>
+                        <td>リンク</td>
+                        <td>
+                            <select class="select-field url-select">
+                                <option value="リンクファイル">リンクファイル</option>
+                                <option value="リンクURL">リンクURL</option>
+                            </select>
+                            <div class="addition-action">
+                                <input type="text" class="input-field" placeholder="https://img-flow.com/">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>リンクファイル</td>
+                        <td>
+                            <input type="radio" name="radio2" checked="checked">表示
+                            <input type="radio" name="radio2">非表示
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                    <tr>
+                        <th colspan="2">お知らせ③
+                            <div class="arrow-btn-group">
+                                <div class="arrow-btn">
+                                    <img src="./public/img/arrow-up.png">
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>表示日付</td>
+                        <td>
+                            <div class="select-container">
+                                <select class="select-field">
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                </select>
+                                <select class="select-field">
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                                <select class="select-field">
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="14">15</option>
+                                    <option value="14" selected>16</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>本文</td>
+                        <td><textarea rows="11">ホームページをリニューアルしました。
+                        </textarea></td>
+                    </tr>
+                    <tr>
+                        <td>リンク</td>
+                        <td>
+                            <select class="select-field url-select">
+                                <option value="リンクファイル">リンクファイル</option>
+                                <option value="リンクURL">リンクURL</option>
+                            </select>
+                            <div class="addition-action">
+                                <p>※アップロードできるファイル形式はPDFのみです。 ※10MBまで</p>
+                                <img src="./public/img/pdf.png">
+                                <p>
+                                    <button class="btn-upload btn-upload-pdf">
+                                        削除
+                                    </button>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>リンクファイル</td>
+                        <td>
+                            <input type="radio" name="radio3" checked="checked">表示
+                            <input type="radio" name="radio3">非表示
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="detail__section" id="section2">
+                <h2 class="detail__group-label">事業概要</h2>
+                <table>
+                    <thead>
+                    <tr>
+                        <th colspan="2">サービス①</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>サービス画像</td>
+                        <td>
+                            <div class="upload-section">
+                                <h3 class="sub-label">サービス画像</h3>
+                                <div class="image-container">
+                                    <img src="./public/img/detail_img1.png">
+                                </div>
+                                <div class="upload-btn">
+                                    ここにファイルをドロップ　または　<a href="#" class="link-btn">ファイルを選択する</a>
+                                </div>
+                            </div>
+                            <div class="upload-section upload-section-desc">
+                                <h3 class="sub-label">説明文章</h3>
+                                <div class="upload-des__input-container">
+                                    <label for="upload-input11">見出し</label>
+                                    <input type="text" class="input-field" id="upload-input11" value="化粧品容器の商社">
+                                </div>
+                                <div class="upload-des__input-container">
+                                    <label for="upload-input12">本文</label>
+                                    <textarea rows="3" id="upload-input12">私たちは、お客様のニーズに迅速かつ柔軟に対応することを信条とし、
+製品の企画段階から納品まで丁寧にサポートさせて頂きます。
+                                    </textarea>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>公開ステータス</td>
+                        <td>
+                            <div class="custom-radio">
+                                <input type="radio" name="radio5" checked="checked">表示
+                                <input type="radio" name="radio5">非表示
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                    <tr>
+                        <th colspan="2">サービス②</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>サービス画像</td>
+                        <td>
+                            <div class="upload-section">
+                                <h3 class="sub-label">サービス画像</h3>
+                                <p style="padding-left:16px">※アップロードできるファイル形式は、JPEG/PNGのみです。※5MBまで</p>
+                                <div class="image-container">
+                                </div>
+                                <div class="upload-btn">
+                                    ここにファイルをドロップ　または　<a href="#" class="link-btn">ファイルを選択する</a>
+                                </div>
+                            </div>
+                            <div class="upload-section upload-section-desc">
+                                <h3 class="sub-label">説明文章</h3>
+                                <div class="upload-des__input-container">
+                                    <label for="upload-input21">見出し</label>
+                                    <input type="text" class="input-field" id="upload-input21" value="化粧品容器の商社">
+                                </div>
+                                <div class="upload-des__input-container">
+                                    <label for="upload-input22">本文</label>
+                                    <textarea rows="3" id="upload-input22">私たちは、お客様のニーズに迅速かつ柔軟に対応することを信条とし、
+製品の企画段階から納品まで丁寧にサポートさせて頂きます。
+                                    </textarea>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>公開ステータス</td>
+                        <td>
+                            <div class="custom-radio">
+                                <input type="radio" name="radio4" checked="checked">表示
+                                <input type="radio" name="radio4">非表示
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="add-more-container">
+                <a href="#" class="link-btn">⊕サービス追加</a>
+                <span>最大５件まで登録可能です。⊕サービス追加ボタンを押してから追加してください。</span>
+            </div>
+            <div class="detail__section" id="section3">
+                <h2 class="detail__group-label">募集要項</h2>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>仕事内容</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>勤務地</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>Google Map URL</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>雇用形態</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>給与</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>勤務時間・曜日</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>休日・休暇</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>資格・経験</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>待遇</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>選考フロー</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>応募方法</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>備考</td>
+                        <td><input type="text" class="input-field" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td>公開ステータス</td>
+                        <td>
+                            <input type="radio" name="radio6" checked="checked">表示
+                            <input type="radio" name="radio6">非表示
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <a class="edit__button button" href="detail.html">編集する</a>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__copy">Copyright IMG-Connection All Rights Reserved.</div>
+        <a href="#" class="footer__page-top" aria-label="ページトップに戻る"></a>
+    </div>
+</footer>
+<div class="bottom_btn_container">
+    <a class="bottom_btn button bottom_btn_cancel" href="detail.html">編集キャンセル</a>
+    <a class="bottom_btn button bottom_btn_apply" href="complete.html">変更する</a>
+</div>
+</body>

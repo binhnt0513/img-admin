@@ -1,0 +1,77 @@
+.login__container {
+    width: min(94%, 640px);
+    margin: auto;
+    padding-top: 120px;
+}
+
+.login__content {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border: 1px solid #ECECEC;
+    border-radius: 17px;
+    background: #fff;
+}
+
+.login__group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: var(--black);
+    font-family: var(--font-family-hiraginokaku_gothic_pron-w3);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.login__title {
+    margin-bottom: 30px;
+    line-height: 1;
+    text-align: center;
+    color: var(--black);
+    font-family: var(--font-family-hiraginokaku_gothic_pron-w6);
+    font-size: var(--font-size-m);
+    font-style: normal;
+}
+
+.login__group label {
+    width: 100px;
+}
+
+.login__group input {
+    width: 340px;
+}
+
+.login__group dd .text-box {
+    height: 40px;
+}
+
+.text-box {
+    width: 100%;
+    max-width: 350px;
+    padding: 0.25em 0.5em;
+    border: 1px solid #D9D9D9;
+    background: #fff;
+    line-height: 2.5;
+}
+
+
+.login__button {
+    margin: 30px auto 0;
+    background-color: var(--daintree);
+}
+
+.password-box__button {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    align-items: center;
+    width: 16px;
+    transform: translateY(-50%);
+}
+
+.password-box {
+    position: relative;
+    max-width: 335px;
+}

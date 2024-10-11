@@ -1,0 +1,227 @@
+.detail__container {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+    gap: 30px;
+}
+
+.detail__title {
+    color: var(--black);
+    font-family: var(--font-family-hiraginokaku_gothic_pron-w6);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+.detail_actions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.detail_content {
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--cararra);
+    border-radius: 17px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 60px;
+}
+
+.detail__section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn__anker-link {
+    position: relative;
+    padding: 10px 40px 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    max-width: 280px;
+    background-color: var(--dove-gray);
+    border: var(--dove-gray);
+    color: var(--white);
+    font-family: var(--font-family-hiraginokaku_gothic_pron-w6);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 400;
+    width: 280px;
+    text-decoration: none;
+}
+
+.btn__anker-link .icon {
+    position: absolute;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid white;
+}
+
+.detail__group-label {
+    color: var(--black);
+    font-family: var(--font-family-hiraginokaku_gothic_pron-w6);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.edit__button {
+    width: 500px;
+    margin: 20px auto 0;
+    background-color: var(--daintree);
+}
+
+.select-container {
+    display: flex;
+    gap: 10px;
+}
+
+.select-field {
+    padding: 4px;
+    font-size: var(--font-size-xs);
+    border: 1px solid var(--dove-gray);
+    border-radius: 2px;
+    text-align: center;
+    min-width: 50px;
+}
+
+.select-field:focus {
+    outline: none;
+}
+
+.url-select {
+    width: 330px;
+    text-align: left;
+}
+
+.addition-action {
+    margin: 10px 0 0 0;
+    background-color: var(--wild-sand);
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-upload {
+    height: 28px;
+    border-radius: 2px;
+    border: 1px solid var(--dove-gray);
+    background: var(--white);
+}
+
+.btn-upload-pdf {
+    margin-left: 32px;
+    width: 63px;
+}
+
+textarea {
+    width: 95%;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.input-field {
+    height: 28px;
+    border: 1px solid var(--dove-gray);
+    border-radius: 2px;
+    width: 324px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#section3 .input-field {
+    width: 330px;
+}
+
+.image-uploader {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.image-container {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.image-container img {
+    max-width: none;
+    height: auto;
+    width: auto;
+}
+
+.sub-label {
+    color: var(--black);
+    font-family: var(--font-family-hiraginokaku_gothic_pron-w3);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    background-color: var(--gallery);
+    padding-left: 12px;
+}
+
+.upload-btn {
+    height: 104px;
+    width: 417px;
+    border: 1px dashed #DDDDDD;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 16px;
+}
+
+.upload-des__input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.upload-des__input-container label {
+    width: 65px;
+}
+
+.upload-des__input-container input, textarea {
+    width: 592px;
+}
+
+.add-more-container {
+    margin-top: -50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: var(--black);
+    font-family: var(--font-family-hiraginokaku_gothic_pron-w3);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 400;
+}
+.link-btn {
+    text-decoration: none;
+    color: var(--dodger-blue);
+}

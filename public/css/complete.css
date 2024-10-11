@@ -1,0 +1,29 @@
+.complete__container {
+    width: min(94%, 640px);
+    margin: auto;
+    padding-top: 120px;
+}
+
+.complete__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    border: 1px solid #ECECEC;
+    border-radius: 17px;
+    background: #fff;
+}
+
+.complete__button {
+    margin: 30px auto 0;
+    background-color: var(--daintree);
+}
+
+.complete__message {
+    color: var(--black);
+    font-family: var(--font-family-hiraginokaku_gothic_pron-w6);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
